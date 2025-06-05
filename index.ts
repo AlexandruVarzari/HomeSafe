@@ -1,7 +1,7 @@
 const contactLink = document.getElementById("contactLink") as HTMLAnchorElement;
 const productsContactLink = document.getElementById(
   "productsContactLink"
-) as HTMLAnchorElement;
+) as HTMLButtonElement;
 const contactPopup = document.getElementById("contactPopup") as HTMLDivElement;
 const closePopup = document.getElementById("closePopup") as HTMLSpanElement;
 const contactForm = document.querySelector(".contact-form") as HTMLFormElement;
