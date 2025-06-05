@@ -1,0 +1,12 @@
+{
+  "name": "company-website",
+  "version": "1.0.0",
+  "description": "Company website with contact form",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeSafe - Smart Home Security</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="flex nav-bar">
+      <div class="logo">Logo</div>
+      <ul class="flex nav-links">
+        <li><a href="#">About us</a></li>
+        <li><a href="#" id="contactLink">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero-section">
+      <!-- text -->
+      <div class="hero-text-content">
+        <h1 class="hero-title animate-fade-in-up">
+          <span class="hero-title-part-1">Secure Your Home,</span>
+          <span class="hero-title-part-2 delay-100">Empower Your Life.</span>
+        </h1>
+        <p class="hero-description animate-fade-in-up delay-200">
+          At HomeSafe, we provide cutting-edge home security solutions designed
+          for your ultimate peace of mind. From smart surveillance to
+          intelligent alarms, we've got you covered 24/7.
+        </p>
+        <a href="#" class="hero-button animate-fade-in-up delay-300">
+          Explore Our Solutions
+        </a>
+      </div>
+      <!-- img -->
+      <div class="hero-image-content">
+        <img
+          src="https://placehold.co/700x500/A7C1A8/fffff          text=Smart+Home+Security"
+          alt="Smart Home Security System"
+          class="hero-image animate-fade-in-right delay-200"
+          onerror="this.onerror=null;this.src='https://placehold.co/800x600/3B82F6/FFFFFF?text=Placeholder+Image';"
+        />
+      </div>
+    </section>
+
+    <section class="products-section">
+      <div class="products-content">
+        <h2 class="section-title animate-fade-in-up">Our Solutions</h2>
+        <div class="products-grid">
+          <div class="product-card animate-fade-in-up delay-100">
+            <div class="product-icon">🔒</div>
+            <h3>Smart Locks</h3>
+            <p>
+              Advanced biometric and keyless entry systems for maximum security
+              and convenience.
+            </p>
+          </div>
+          <div class="product-card animate-fade-in-up delay-200">
+            <div class="product-icon">📹</div>
+            <h3>Surveillance Systems</h3>
+            <p>
+              24/7 HD monitoring with AI-powered motion detection and cloud
+              storage.
+            </p>
+          </div>
+          <div class="product-card animate-fade-in-up delay-300">
+            <div class="product-icon">🚨</div>
+            <h3>Smart Alarms</h3>
+            <p>
+              Intelligent alarm systems with instant mobile notifications and
+              emergency response.
+            </p>
+          </div>
+        </div>
+        <div class="cta-container animate-fade-in-up delay-400">
+          <h3>Ready to Secure Your Home?</h3>
+          <p>
+            Join thousands of satisfied customers who trust HomeSafe for their
+            security needs.
+          </p>
+          <a href="#" class="cta-button" id="productsContactLink"
+            >Contact Us Today</a
+          >
+        </div>
+      </div>
+    </section>
+    <hr />
+    <footer class="footer">
+      <p>&copy; 2024 HomeSafe. All rights reserved.</p>
+    </footer>
+
+    <div id="contactPopup" class="modal-overlay">
+      <div class="modal-content">
+        <span class="close-button" id="closePopup">&times;</span>
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
